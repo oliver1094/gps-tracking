@@ -1,4 +1,4 @@
-var gps = require("gps-tracking");
+var gps = require("octopus-gps-tracking");
  
 var options = {
     'debug'                 : true,
