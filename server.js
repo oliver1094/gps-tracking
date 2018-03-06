@@ -7,9 +7,9 @@ var options = {
 }
 
 var server = gps.server(options,function(device,connection){
-
+    console.log(connection);
     device.on("connected",function(data){
-
+        
         console.log("I'm a new device connected");
         console.log(data);
         return data;
