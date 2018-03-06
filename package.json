@@ -1,6 +1,10 @@
 {
-  "name": "gps-tracking",
+  "name": "gps-trackings",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "3.10.10"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -12,4 +16,5 @@
   "dependencies": {
     "gps-tracking": "^1.1.1"
   }
+  
 }
