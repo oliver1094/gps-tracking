@@ -11,6 +11,7 @@ var server = gps.server(options,function(device,connection){
     device.on("connected",function(data){
 
         console.log("I'm a new device connected");
+        console.log(data);
         return data;
 
     });
