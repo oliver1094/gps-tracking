@@ -14,7 +14,7 @@
   "author": "Josafat",
   "license": "ISC",
   "dependencies": {
-    "gps-tracking": "^1.1.1"
+    "gps-tracking": "^1.1.1",
+    "octopus-gps-tracking": "^1.0.14"
   }
-  
 }
